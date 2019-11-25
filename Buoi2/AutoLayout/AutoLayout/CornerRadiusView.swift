@@ -16,7 +16,7 @@ class CornerRadiusView: UIView {
     
     override func draw(_ rect: CGRect) {
         let path = UIBezierPath(roundedRect: rect, cornerRadius: radius)
-        fillColor.setFill()
+//        fillColor.setFill()
         
         path.fill()
         
