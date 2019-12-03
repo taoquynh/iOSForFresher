@@ -58,3 +58,6 @@
     Upload binary file together with parameters
 
 ```
+
+### API
+```
