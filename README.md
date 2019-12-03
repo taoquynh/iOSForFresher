@@ -60,4 +60,8 @@
 ```
 
 ### API
-```
+1. API đăng ký
+URL: /register
+Method: POST 
+Request: https://jsoneditoronline.org/?id=1c6b9f1c09b74d6ca436c19f07cf2d80
+Response: https://jsoneditoronline.org/?id=98ae04986fe34ddaaa7413f719572777
