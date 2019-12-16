@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29AA11C6228B2BAC000EF024 /* TextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AA11C4228B2BAC000EF024 /* TextViewViewController.swift */; };
+		29AA11C7228B2BAC000EF024 /* TextViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AA11C5228B2BAC000EF024 /* TextViewViewController.xib */; };
+		29AA11CA228B2C1B000EF024 /* ScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29AA11C8228B2C1B000EF024 /* ScrollViewViewController.swift */; };
+		29AA11CB228B2C1B000EF024 /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29AA11C9228B2C1B000EF024 /* ScrollViewViewController.xib */; };
+		A90D3EB5228AC8DB00C693BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EB4228AC8DB00C693BB /* Assets.xcassets */; };
+		A90D3EB8228AC8DB00C693BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EB6228AC8DB00C693BB /* LaunchScreen.storyboard */; };
+		A90D3EC4228AC90A00C693BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EC0228AC90900C693BB /* AppDelegate.swift */; };
+		A90D3EC5228AC90A00C693BB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EC1228AC90900C693BB /* MainViewController.swift */; };
+		A90D3EC6228AC90A00C693BB /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EC2228AC90900C693BB /* MainViewController.xib */; };
+		A90D3EC7228AC90A00C693BB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EC3228AC90900C693BB /* Menu.swift */; };
+		A90D3F0C228AC97500C693BB /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3ECA228AC97500C693BB /* ButtonViewController.swift */; };
+		A90D3F0D228AC97500C693BB /* ButtonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3ECB228AC97500C693BB /* ButtonViewController.xib */; };
+		A90D3F0E228AC97500C693BB /* DemoCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3ECD228AC97500C693BB /* DemoCollectionViewViewController.swift */; };
+		A90D3F0F228AC97500C693BB /* DemoCollectionViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3ECE228AC97500C693BB /* DemoCollectionViewViewController.xib */; };
+		A90D3F10228AC97500C693BB /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3ECF228AC97500C693BB /* FoodCollectionViewCell.swift */; };
+		A90D3F11228AC97500C693BB /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3ED1228AC97500C693BB /* DatePickerViewController.swift */; };
+		A90D3F12228AC97500C693BB /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3ED2228AC97500C693BB /* DatePickerViewController.xib */; };
+		A90D3F13228AC97500C693BB /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3ED4228AC97500C693BB /* PickerViewViewController.swift */; };
+		A90D3F14228AC97500C693BB /* PickerViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3ED5228AC97500C693BB /* PickerViewViewController.xib */; };
+		A90D3F21228AC97500C693BB /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EE8228AC97500C693BB /* TextFieldViewController.swift */; };
+		A90D3F22228AC97500C693BB /* TextFieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EE9228AC97500C693BB /* TextFieldViewController.xib */; };
+		A90D3F23228AC97500C693BB /* StepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EEB228AC97500C693BB /* StepperViewController.swift */; };
+		A90D3F24228AC97500C693BB /* StepperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EEC228AC97500C693BB /* StepperViewController.xib */; };
+		A90D3F25228AC97500C693BB /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EEE228AC97500C693BB /* SwitchViewController.swift */; };
+		A90D3F26228AC97500C693BB /* SwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EEF228AC97500C693BB /* SwitchViewController.xib */; };
+		A90D3F27228AC97500C693BB /* LongPressGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EF2228AC97500C693BB /* LongPressGestureViewController.swift */; };
+		A90D3F28228AC97500C693BB /* LongPressGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EF3228AC97500C693BB /* LongPressGestureViewController.xib */; };
+		A90D3F29228AC97500C693BB /* PanGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EF5228AC97500C693BB /* PanGestureViewController.swift */; };
+		A90D3F2A228AC97500C693BB /* PanGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EF6228AC97500C693BB /* PanGestureViewController.xib */; };
+		A90D3F2B228AC97500C693BB /* PinchGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EF8228AC97500C693BB /* PinchGestureViewController.swift */; };
+		A90D3F2C228AC97500C693BB /* PinchGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EF9228AC97500C693BB /* PinchGestureViewController.xib */; };
+		A90D3F2D228AC97500C693BB /* RotateGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EFB228AC97500C693BB /* RotateGestureViewController.swift */; };
+		A90D3F2E228AC97500C693BB /* RotateGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EFC228AC97500C693BB /* RotateGestureViewController.xib */; };
+		A90D3F2F228AC97500C693BB /* SwipeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3EFE228AC97500C693BB /* SwipeGestureViewController.swift */; };
+		A90D3F30228AC97500C693BB /* SwipeGestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3EFF228AC97500C693BB /* SwipeGestureViewController.xib */; };
+		A90D3F31228AC97500C693BB /* TapGesturesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3F01228AC97500C693BB /* TapGesturesViewController.swift */; };
+		A90D3F32228AC97500C693BB /* TapGesturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A90D3F02228AC97500C693BB /* TapGesturesViewController.xib */; };
+		A90D3F33228AC97500C693BB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3F04228AC97500C693BB /* Color.swift */; };
+		A90D3F34228AC97500C693BB /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3F05228AC97500C693BB /* Food.swift */; };
+		A90D3F35228AC97500C693BB /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3F06228AC97500C693BB /* Post.swift */; };
+		A90D3F36228AC97500C693BB /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3F08228AC97500C693BB /* Notification.swift */; };
+		A90D3F37228AC97500C693BB /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3F09228AC97500C693BB /* UIColor.swift */; };
+		A90D3F38228AC97500C693BB /* ConvertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90D3F0B228AC97500C693BB /* ConvertHelper.swift */; };
+		A985BDD1228BB30D006ACAF6 /* Slide.swift in Sources */ = {isa = PBXBuildFile; fileRef = A985BDCF228BB30D006ACAF6 /* Slide.swift */; };
+		A985BDD2228BB30D006ACAF6 /* Slide.xib in Resources */ = {isa = PBXBuildFile; fileRef = A985BDD0228BB30D006ACAF6 /* Slide.xib */; };
+		A985BDD5228BB425006ACAF6 /* PageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A985BDD3228BB425006ACAF6 /* PageControlViewController.swift */; };
+		A985BDD6228BB425006ACAF6 /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A985BDD4228BB425006ACAF6 /* PageControlViewController.xib */; };
+		A985BDD9228BD60C006ACAF6 /* TableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A985BDD7228BD60C006ACAF6 /* TableViewViewController.swift */; };
+		A985BDDA228BD60C006ACAF6 /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A985BDD8228BD60C006ACAF6 /* TableViewViewController.xib */; };
+		A985BDE1228BDA9D006ACAF6 /* HitList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A985BDDF228BDA9C006ACAF6 /* HitList.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29AA11C4228B2BAC000EF024 /* TextViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewViewController.swift; sourceTree = "<group>"; };
+		29AA11C5228B2BAC000EF024 /* TextViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextViewViewController.xib; sourceTree = "<group>"; };
+		29AA11C8228B2C1B000EF024 /* ScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController.swift; sourceTree = "<group>"; };
+		29AA11C9228B2C1B000EF024 /* ScrollViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewViewController.xib; sourceTree = "<group>"; };
+		A90D3EAA228AC8D900C693BB /* ControlAndGesture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ControlAndGesture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90D3EB4228AC8DB00C693BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A90D3EB7228AC8DB00C693BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A90D3EB9228AC8DB00C693BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90D3EC0228AC90900C693BB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A90D3EC1228AC90900C693BB /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A90D3EC2228AC90900C693BB /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		A90D3EC3228AC90900C693BB /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A90D3ECA228AC97500C693BB /* ButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
+		A90D3ECB228AC97500C693BB /* ButtonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonViewController.xib; sourceTree = "<group>"; };
+		A90D3ECD228AC97500C693BB /* DemoCollectionViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCollectionViewViewController.swift; sourceTree = "<group>"; };
+		A90D3ECE228AC97500C693BB /* DemoCollectionViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoCollectionViewViewController.xib; sourceTree = "<group>"; };
+		A90D3ECF228AC97500C693BB /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
+		A90D3ED1228AC97500C693BB /* DatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		A90D3ED2228AC97500C693BB /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		A90D3ED4228AC97500C693BB /* PickerViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
+		A90D3ED5228AC97500C693BB /* PickerViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewViewController.xib; sourceTree = "<group>"; };
+		A90D3EE8228AC97500C693BB /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		A90D3EE9228AC97500C693BB /* TextFieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldViewController.xib; sourceTree = "<group>"; };
+		A90D3EEB228AC97500C693BB /* StepperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepperViewController.swift; sourceTree = "<group>"; };
+		A90D3EEC228AC97500C693BB /* StepperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepperViewController.xib; sourceTree = "<group>"; };
+		A90D3EEE228AC97500C693BB /* SwitchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
+		A90D3EEF228AC97500C693BB /* SwitchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchViewController.xib; sourceTree = "<group>"; };
+		A90D3EF2228AC97500C693BB /* LongPressGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongPressGestureViewController.swift; sourceTree = "<group>"; };
+		A90D3EF3228AC97500C693BB /* LongPressGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LongPressGestureViewController.xib; sourceTree = "<group>"; };
+		A90D3EF5228AC97500C693BB /* PanGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanGestureViewController.swift; sourceTree = "<group>"; };
+		A90D3EF6228AC97500C693BB /* PanGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanGestureViewController.xib; sourceTree = "<group>"; };
+		A90D3EF8228AC97500C693BB /* PinchGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinchGestureViewController.swift; sourceTree = "<group>"; };
+		A90D3EF9228AC97500C693BB /* PinchGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PinchGestureViewController.xib; sourceTree = "<group>"; };
+		A90D3EFB228AC97500C693BB /* RotateGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotateGestureViewController.swift; sourceTree = "<group>"; };
+		A90D3EFC228AC97500C693BB /* RotateGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RotateGestureViewController.xib; sourceTree = "<group>"; };
+		A90D3EFE228AC97500C693BB /* SwipeGestureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeGestureViewController.swift; sourceTree = "<group>"; };
+		A90D3EFF228AC97500C693BB /* SwipeGestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwipeGestureViewController.xib; sourceTree = "<group>"; };
+		A90D3F01228AC97500C693BB /* TapGesturesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapGesturesViewController.swift; sourceTree = "<group>"; };
+		A90D3F02228AC97500C693BB /* TapGesturesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TapGesturesViewController.xib; sourceTree = "<group>"; };
+		A90D3F04228AC97500C693BB /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		A90D3F05228AC97500C693BB /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		A90D3F06228AC97500C693BB /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A90D3F08228AC97500C693BB /* Notification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		A90D3F09228AC97500C693BB /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		A90D3F0B228AC97500C693BB /* ConvertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConvertHelper.swift; sourceTree = "<group>"; };
+		A985BDCF228BB30D006ACAF6 /* Slide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slide.swift; sourceTree = "<group>"; };
+		A985BDD0228BB30D006ACAF6 /* Slide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Slide.xib; sourceTree = "<group>"; };
+		A985BDD3228BB425006ACAF6 /* PageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControlViewController.swift; sourceTree = "<group>"; };
+		A985BDD4228BB425006ACAF6 /* PageControlViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
+		A985BDD7228BD60C006ACAF6 /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
+		A985BDD8228BD60C006ACAF6 /* TableViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
+		A985BDE0228BDA9C006ACAF6 /* HitList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HitList.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A90D3EA7228AC8D900C693BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29AA11C2228B2B39000EF024 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				29AA11C4228B2BAC000EF024 /* TextViewViewController.swift */,
+				29AA11C5228B2BAC000EF024 /* TextViewViewController.xib */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		29AA11C3228B2B72000EF024 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				29AA11C8228B2C1B000EF024 /* ScrollViewViewController.swift */,
+				29AA11C9228B2C1B000EF024 /* ScrollViewViewController.xib */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		29AA11CC228B2F21000EF024 /* Page Control */ = {
+			isa = PBXGroup;
+			children = (
+				A985BDCE228BB30D006ACAF6 /* views */,
+				A985BDD3228BB425006ACAF6 /* PageControlViewController.swift */,
+				A985BDD4228BB425006ACAF6 /* PageControlViewController.xib */,
+			);
+			path = "Page Control";
+			sourceTree = "<group>";
+		};
+		A90D3EA1228AC8D900C693BB = {
+			isa = PBXGroup;
+			children = (
+				A90D3EAC228AC8D900C693BB /* ControlAndGesture */,
+				A90D3EAB228AC8D900C693BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A90D3EAB228AC8D900C693BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EAA228AC8D900C693BB /* ControlAndGesture.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A90D3EAC228AC8D900C693BB /* ControlAndGesture */ = {
+			isa = PBXGroup;
+			children = (
+				A985BDDF228BDA9C006ACAF6 /* HitList.xcdatamodeld */,
+				A90D3EBF228AC90900C693BB /* Core */,
+				A90D3EC8228AC97500C693BB /* ControlDemo */,
+				A90D3EF0228AC97500C693BB /* GetureDemo */,
+				A90D3F07228AC97500C693BB /* Extensions */,
+				A90D3F0A228AC97500C693BB /* Helper */,
+				A90D3F03228AC97500C693BB /* Models */,
+				A90D3EB4228AC8DB00C693BB /* Assets.xcassets */,
+				A90D3EB6228AC8DB00C693BB /* LaunchScreen.storyboard */,
+				A90D3EB9228AC8DB00C693BB /* Info.plist */,
+			);
+			path = ControlAndGesture;
+			sourceTree = "<group>";
+		};
+		A90D3EBF228AC90900C693BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EC0228AC90900C693BB /* AppDelegate.swift */,
+				A90D3EC1228AC90900C693BB /* MainViewController.swift */,
+				A90D3EC2228AC90900C693BB /* MainViewController.xib */,
+				A90D3EC3228AC90900C693BB /* Menu.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A90D3EC8228AC97500C693BB /* ControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EE7228AC97500C693BB /* TextField */,
+				29AA11C2228B2B39000EF024 /* TextView */,
+				A90D3EC9228AC97500C693BB /* Button */,
+				A90D3ED0228AC97500C693BB /* DatePicker */,
+				A90D3ED3228AC97500C693BB /* PickerView */,
+				A90D3EEA228AC97500C693BB /* UIStepper */,
+				A90D3EED228AC97500C693BB /* UISwitch */,
+				29AA11C3228B2B72000EF024 /* ScrollView */,
+				A90D3EE1228AC97500C693BB /* TableView */,
+				A90D3ECC228AC97500C693BB /* CollectionView */,
+				29AA11CC228B2F21000EF024 /* Page Control */,
+			);
+			path = ControlDemo;
+			sourceTree = "<group>";
+		};
+		A90D3EC9228AC97500C693BB /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3ECA228AC97500C693BB /* ButtonViewController.swift */,
+				A90D3ECB228AC97500C693BB /* ButtonViewController.xib */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		A90D3ECC228AC97500C693BB /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3ECD228AC97500C693BB /* DemoCollectionViewViewController.swift */,
+				A90D3ECE228AC97500C693BB /* DemoCollectionViewViewController.xib */,
+				A90D3ECF228AC97500C693BB /* FoodCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		A90D3ED0228AC97500C693BB /* DatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3ED1228AC97500C693BB /* DatePickerViewController.swift */,
+				A90D3ED2228AC97500C693BB /* DatePickerViewController.xib */,
+			);
+			path = DatePicker;
+			sourceTree = "<group>";
+		};
+		A90D3ED3228AC97500C693BB /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3ED4228AC97500C693BB /* PickerViewViewController.swift */,
+				A90D3ED5228AC97500C693BB /* PickerViewViewController.xib */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		A90D3EE1228AC97500C693BB /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				A985BDD7228BD60C006ACAF6 /* TableViewViewController.swift */,
+				A985BDD8228BD60C006ACAF6 /* TableViewViewController.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		A90D3EE7228AC97500C693BB /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EE8228AC97500C693BB /* TextFieldViewController.swift */,
+				A90D3EE9228AC97500C693BB /* TextFieldViewController.xib */,
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		A90D3EEA228AC97500C693BB /* UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EEB228AC97500C693BB /* StepperViewController.swift */,
+				A90D3EEC228AC97500C693BB /* StepperViewController.xib */,
+			);
+			path = UIStepper;
+			sourceTree = "<group>";
+		};
+		A90D3EED228AC97500C693BB /* UISwitch */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EEE228AC97500C693BB /* SwitchViewController.swift */,
+				A90D3EEF228AC97500C693BB /* SwitchViewController.xib */,
+			);
+			path = UISwitch;
+			sourceTree = "<group>";
+		};
+		A90D3EF0228AC97500C693BB /* GetureDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EF1228AC97500C693BB /* Long Press */,
+				A90D3EF4228AC97500C693BB /* Pan */,
+				A90D3EF7228AC97500C693BB /* Pinch */,
+				A90D3EFA228AC97500C693BB /* Rotate */,
+				A90D3EFD228AC97500C693BB /* Swipe */,
+				A90D3F00228AC97500C693BB /* Tap */,
+			);
+			path = GetureDemo;
+			sourceTree = "<group>";
+		};
+		A90D3EF1228AC97500C693BB /* Long Press */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EF2228AC97500C693BB /* LongPressGestureViewController.swift */,
+				A90D3EF3228AC97500C693BB /* LongPressGestureViewController.xib */,
+			);
+			path = "Long Press";
+			sourceTree = "<group>";
+		};
+		A90D3EF4228AC97500C693BB /* Pan */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EF5228AC97500C693BB /* PanGestureViewController.swift */,
+				A90D3EF6228AC97500C693BB /* PanGestureViewController.xib */,
+			);
+			path = Pan;
+			sourceTree = "<group>";
+		};
+		A90D3EF7228AC97500C693BB /* Pinch */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EF8228AC97500C693BB /* PinchGestureViewController.swift */,
+				A90D3EF9228AC97500C693BB /* PinchGestureViewController.xib */,
+			);
+			path = Pinch;
+			sourceTree = "<group>";
+		};
+		A90D3EFA228AC97500C693BB /* Rotate */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EFB228AC97500C693BB /* RotateGestureViewController.swift */,
+				A90D3EFC228AC97500C693BB /* RotateGestureViewController.xib */,
+			);
+			path = Rotate;
+			sourceTree = "<group>";
+		};
+		A90D3EFD228AC97500C693BB /* Swipe */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3EFE228AC97500C693BB /* SwipeGestureViewController.swift */,
+				A90D3EFF228AC97500C693BB /* SwipeGestureViewController.xib */,
+			);
+			path = Swipe;
+			sourceTree = "<group>";
+		};
+		A90D3F00228AC97500C693BB /* Tap */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3F01228AC97500C693BB /* TapGesturesViewController.swift */,
+				A90D3F02228AC97500C693BB /* TapGesturesViewController.xib */,
+			);
+			path = Tap;
+			sourceTree = "<group>";
+		};
+		A90D3F03228AC97500C693BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3F04228AC97500C693BB /* Color.swift */,
+				A90D3F05228AC97500C693BB /* Food.swift */,
+				A90D3F06228AC97500C693BB /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A90D3F07228AC97500C693BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3F08228AC97500C693BB /* Notification.swift */,
+				A90D3F09228AC97500C693BB /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A90D3F0A228AC97500C693BB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A90D3F0B228AC97500C693BB /* ConvertHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A985BDCE228BB30D006ACAF6 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				A985BDCF228BB30D006ACAF6 /* Slide.swift */,
+				A985BDD0228BB30D006ACAF6 /* Slide.xib */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A90D3EA9228AC8D900C693BB /* ControlAndGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A90D3EBC228AC8DB00C693BB /* Build configuration list for PBXNativeTarget "ControlAndGesture" */;
+			buildPhases = (
+				A90D3EA6228AC8D900C693BB /* Sources */,
+				A90D3EA7228AC8D900C693BB /* Frameworks */,
+				A90D3EA8228AC8D900C693BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlAndGesture;
+			productName = ControlAndGesture;
+			productReference = A90D3EAA228AC8D900C693BB /* ControlAndGesture.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90D3EA2228AC8D900C693BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Taof;
+				TargetAttributes = {
+					A90D3EA9228AC8D900C693BB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = A90D3EA5228AC8D900C693BB /* Build configuration list for PBXProject "ControlAndGesture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A90D3EA1228AC8D900C693BB;
+			productRefGroup = A90D3EAB228AC8D900C693BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A90D3EA9228AC8D900C693BB /* ControlAndGesture */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A90D3EA8228AC8D900C693BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D3F12228AC97500C693BB /* DatePickerViewController.xib in Resources */,
+				A90D3F2E228AC97500C693BB /* RotateGestureViewController.xib in Resources */,
+				29AA11C7228B2BAC000EF024 /* TextViewViewController.xib in Resources */,
+				A90D3F2C228AC97500C693BB /* PinchGestureViewController.xib in Resources */,
+				29AA11CB228B2C1B000EF024 /* ScrollViewViewController.xib in Resources */,
+				A90D3F30228AC97500C693BB /* SwipeGestureViewController.xib in Resources */,
+				A90D3F0D228AC97500C693BB /* ButtonViewController.xib in Resources */,
+				A90D3F22228AC97500C693BB /* TextFieldViewController.xib in Resources */,
+				A90D3F32228AC97500C693BB /* TapGesturesViewController.xib in Resources */,
+				A90D3F14228AC97500C693BB /* PickerViewViewController.xib in Resources */,
+				A90D3EB8228AC8DB00C693BB /* LaunchScreen.storyboard in Resources */,
+				A90D3F2A228AC97500C693BB /* PanGestureViewController.xib in Resources */,
+				A985BDDA228BD60C006ACAF6 /* TableViewViewController.xib in Resources */,
+				A90D3F26228AC97500C693BB /* SwitchViewController.xib in Resources */,
+				A985BDD2228BB30D006ACAF6 /* Slide.xib in Resources */,
+				A90D3EC6228AC90A00C693BB /* MainViewController.xib in Resources */,
+				A90D3F28228AC97500C693BB /* LongPressGestureViewController.xib in Resources */,
+				A90D3EB5228AC8DB00C693BB /* Assets.xcassets in Resources */,
+				A90D3F0F228AC97500C693BB /* DemoCollectionViewViewController.xib in Resources */,
+				A985BDD6228BB425006ACAF6 /* PageControlViewController.xib in Resources */,
+				A90D3F24228AC97500C693BB /* StepperViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A90D3EA6228AC8D900C693BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90D3F2D228AC97500C693BB /* RotateGestureViewController.swift in Sources */,
+				A90D3F37228AC97500C693BB /* UIColor.swift in Sources */,
+				29AA11C6228B2BAC000EF024 /* TextViewViewController.swift in Sources */,
+				A90D3F33228AC97500C693BB /* Color.swift in Sources */,
+				A90D3F0C228AC97500C693BB /* ButtonViewController.swift in Sources */,
+				A90D3F38228AC97500C693BB /* ConvertHelper.swift in Sources */,
+				A985BDD9228BD60C006ACAF6 /* TableViewViewController.swift in Sources */,
+				A90D3F34228AC97500C693BB /* Food.swift in Sources */,
+				A90D3F2F228AC97500C693BB /* SwipeGestureViewController.swift in Sources */,
+				A90D3F25228AC97500C693BB /* SwitchViewController.swift in Sources */,
+				A90D3F2B228AC97500C693BB /* PinchGestureViewController.swift in Sources */,
+				A90D3F21228AC97500C693BB /* TextFieldViewController.swift in Sources */,
+				A90D3F13228AC97500C693BB /* PickerViewViewController.swift in Sources */,
+				A90D3F23228AC97500C693BB /* StepperViewController.swift in Sources */,
+				A985BDD5228BB425006ACAF6 /* PageControlViewController.swift in Sources */,
+				A985BDD1228BB30D006ACAF6 /* Slide.swift in Sources */,
+				A90D3EC7228AC90A00C693BB /* Menu.swift in Sources */,
+				A90D3F35228AC97500C693BB /* Post.swift in Sources */,
+				A90D3F27228AC97500C693BB /* LongPressGestureViewController.swift in Sources */,
+				A90D3F31228AC97500C693BB /* TapGesturesViewController.swift in Sources */,
+				A90D3F36228AC97500C693BB /* Notification.swift in Sources */,
+				A90D3F11228AC97500C693BB /* DatePickerViewController.swift in Sources */,
+				A90D3EC4228AC90A00C693BB /* AppDelegate.swift in Sources */,
+				A90D3F0E228AC97500C693BB /* DemoCollectionViewViewController.swift in Sources */,
+				29AA11CA228B2C1B000EF024 /* ScrollViewViewController.swift in Sources */,
+				A90D3F29228AC97500C693BB /* PanGestureViewController.swift in Sources */,
+				A985BDE1228BDA9D006ACAF6 /* HitList.xcdatamodeld in Sources */,
+				A90D3F10228AC97500C693BB /* FoodCollectionViewCell.swift in Sources */,
+				A90D3EC5228AC90A00C693BB /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A90D3EB6228AC8DB00C693BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A90D3EB7228AC8DB00C693BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A90D3EBA228AC8DB00C693BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A90D3EBB228AC8DB00C693BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A90D3EBD228AC8DB00C693BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z872JX6928;
+				INFOPLIST_FILE = ControlAndGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taoquynh.ControlAndGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A90D3EBE228AC8DB00C693BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z872JX6928;
+				INFOPLIST_FILE = ControlAndGesture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = taoquynh.ControlAndGesture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A90D3EA5228AC8D900C693BB /* Build configuration list for PBXProject "ControlAndGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90D3EBA228AC8DB00C693BB /* Debug */,
+				A90D3EBB228AC8DB00C693BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A90D3EBC228AC8DB00C693BB /* Build configuration list for PBXNativeTarget "ControlAndGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A90D3EBD228AC8DB00C693BB /* Debug */,
+				A90D3EBE228AC8DB00C693BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A985BDDF228BDA9C006ACAF6 /* HitList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A985BDE0228BDA9C006ACAF6 /* HitList.xcdatamodel */,
+			);
+			currentVersion = A985BDE0228BDA9C006ACAF6 /* HitList.xcdatamodel */;
+			path = HitList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A90D3EA2228AC8D900C693BB /* Project object */;
+}

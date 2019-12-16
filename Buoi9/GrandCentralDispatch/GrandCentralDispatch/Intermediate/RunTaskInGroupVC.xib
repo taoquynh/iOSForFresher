@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RunTaskInGroupVC" customModule="GrandCentralDispatch" customModuleProvider="target">
+            <connections>
+                <outlet property="label" destination="NNm-PY-rfn" id="XeM-8L-0VB"/>
+                <outlet property="progress1" destination="KFk-xt-2cA" id="Wg3-e6-qtg"/>
+                <outlet property="progress2" destination="qAG-Ik-swI" id="SJN-Q8-d6e"/>
+                <outlet property="progress3" destination="yB2-Nc-0kC" id="JYA-0e-gWZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vKS-XA-RQI">
+                    <rect key="frame" x="59" y="58" width="256" height="60"/>
+                    <color key="backgroundColor" red="1" green="0.43370169819999999" blue="0.0221825446" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="1GE-dT-hUL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <state key="normal" title="Start 3 concurrent tasks">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="Start3Tasks:" destination="-1" eventType="touchUpInside" id="eVD-0R-NcC"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In progress" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NNm-PY-rfn">
+                    <rect key="frame" x="119" y="369" width="137.5" height="35"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="KFk-xt-2cA">
+                    <rect key="frame" x="16" y="164" width="343" height="2"/>
+                </progressView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yB2-Nc-0kC">
+                    <rect key="frame" x="16" y="284" width="343" height="2"/>
+                </progressView>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="qAG-Ik-swI">
+                    <rect key="frame" x="16" y="222" width="343" height="2"/>
+                </progressView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="qAG-Ik-swI" firstAttribute="top" secondItem="KFk-xt-2cA" secondAttribute="bottom" constant="56" id="3DE-yU-jnJ"/>
+                <constraint firstItem="KFk-xt-2cA" firstAttribute="leading" secondItem="qAG-Ik-swI" secondAttribute="leading" id="9P6-x4-dzP"/>
+                <constraint firstItem="vKS-XA-RQI" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="38" id="HkN-f1-jhr"/>
+                <constraint firstItem="vKS-XA-RQI" firstAttribute="centerX" secondItem="NNm-PY-rfn" secondAttribute="centerX" id="IXL-23-Iun"/>
+                <constraint firstItem="yB2-Nc-0kC" firstAttribute="top" secondItem="qAG-Ik-swI" secondAttribute="bottom" constant="60" id="Tq2-uh-u75"/>
+                <constraint firstItem="NNm-PY-rfn" firstAttribute="top" secondItem="yB2-Nc-0kC" secondAttribute="bottom" constant="83" id="X0w-9f-lUG"/>
+                <constraint firstItem="KFk-xt-2cA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="Xhe-6U-4x1"/>
+                <constraint firstItem="vKS-XA-RQI" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ayO-hk-ptO"/>
+                <constraint firstItem="KFk-xt-2cA" firstAttribute="top" secondItem="vKS-XA-RQI" secondAttribute="bottom" constant="46" id="bKV-6v-6d2"/>
+                <constraint firstItem="qAG-Ik-swI" firstAttribute="leading" secondItem="yB2-Nc-0kC" secondAttribute="leading" id="o9N-qC-AUO"/>
+                <constraint firstItem="vKS-XA-RQI" firstAttribute="centerX" secondItem="qAG-Ik-swI" secondAttribute="centerX" id="ouw-Hr-r9V"/>
+                <constraint firstItem="vKS-XA-RQI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="59" id="qdt-q2-K2b"/>
+                <constraint firstItem="vKS-XA-RQI" firstAttribute="centerX" secondItem="yB2-Nc-0kC" secondAttribute="centerX" id="saz-Hk-iFU"/>
+                <constraint firstItem="vKS-XA-RQI" firstAttribute="centerX" secondItem="KFk-xt-2cA" secondAttribute="centerX" id="yNh-hs-ddD"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-809" y="189"/>
+        </view>
+    </objects>
+</document>

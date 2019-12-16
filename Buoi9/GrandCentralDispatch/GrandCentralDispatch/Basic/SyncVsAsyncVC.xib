@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SyncVsAsyncVC" customModule="GrandCentralDispatch" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2t-iR-2IP">
+                    <rect key="frame" x="16" y="101" width="343" height="48"/>
+                    <color key="backgroundColor" red="0.68971725650000004" green="0.89181357260000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="48" id="aca-2L-pu8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <state key="normal" title="Sync">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="runTasksInSync:" destination="-1" eventType="touchUpInside" id="5XQ-gU-NJu"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqC-ew-eQI">
+                    <rect key="frame" x="16" y="191" width="343" height="48"/>
+                    <color key="backgroundColor" red="0.68971725650000004" green="0.89181357260000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <state key="normal" title="Async">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="runTasksInAsync:" destination="-1" eventType="touchUpInside" id="xD4-rh-STm"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="d2t-iR-2IP" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="81" id="Aa0-I5-qKV"/>
+                <constraint firstItem="d2t-iR-2IP" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="Cxd-y8-ksC"/>
+                <constraint firstItem="bqC-ew-eQI" firstAttribute="height" secondItem="d2t-iR-2IP" secondAttribute="height" id="GiZ-lY-FZV"/>
+                <constraint firstItem="d2t-iR-2IP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="Ngc-Rv-ePi"/>
+                <constraint firstItem="bqC-ew-eQI" firstAttribute="top" secondItem="d2t-iR-2IP" secondAttribute="bottom" constant="42" id="Tqw-pa-r2V"/>
+                <constraint firstItem="d2t-iR-2IP" firstAttribute="trailing" secondItem="bqC-ew-eQI" secondAttribute="trailing" id="U1x-B5-EK1"/>
+                <constraint firstItem="d2t-iR-2IP" firstAttribute="leading" secondItem="bqC-ew-eQI" secondAttribute="leading" id="q2Y-bX-Y5N"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="-36" y="120.98950524737631"/>
+        </view>
+    </objects>
+</document>
