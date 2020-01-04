@@ -29,7 +29,6 @@ class PersonObject: Mappable {
     var results = [Person]()
     
     required init(map: Map) {
-        
     }
     
     func mapping(map: Map) {

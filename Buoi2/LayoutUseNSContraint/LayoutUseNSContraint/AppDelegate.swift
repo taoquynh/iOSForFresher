@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }else{
             window = UIWindow(frame: UIScreen.main.bounds)
             
-            let mainVC = MainViewController()
+            let mainVC = ViewController()
             window?.rootViewController = mainVC
             window?.makeKeyAndVisible()
         }

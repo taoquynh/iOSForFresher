@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A901915723C052C700AB4010 /* ModelIssue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901915623C052C700AB4010 /* ModelIssue.swift */; };
+		A901917B23C05C7B00AB4010 /* AlamofireCodableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A901917723C05C7B00AB4010 /* AlamofireCodableViewController.xib */; };
+		A901917C23C05C7B00AB4010 /* AlamofireObjectMapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901917823C05C7B00AB4010 /* AlamofireObjectMapperViewController.swift */; };
+		A901917D23C05C7B00AB4010 /* AlamofireCodableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901917923C05C7B00AB4010 /* AlamofireCodableViewController.swift */; };
+		A901917E23C05C7B00AB4010 /* AlamofireObjectMapperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A901917A23C05C7B00AB4010 /* AlamofireObjectMapperViewController.xib */; };
+		A901918123C05C9300AB4010 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A901917F23C05C9300AB4010 /* LoginViewController.swift */; };
+		A901918223C05C9300AB4010 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A901918023C05C9300AB4010 /* LoginViewController.xib */; };
 		A9430B90239601C50008B23B /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9430B8C239601C50008B23B /* MainViewController.xib */; };
 		A9430B91239601C50008B23B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9430B8D239601C50008B23B /* MainViewController.swift */; };
 		A9430B93239601C50008B23B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9430B8F239601C50008B23B /* Menu.swift */; };
-		A9430B99239604630008B23B /* AlamofireCodableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9430B97239604630008B23B /* AlamofireCodableViewController.swift */; };
-		A9430B9A239604630008B23B /* AlamofireCodableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9430B98239604630008B23B /* AlamofireCodableViewController.xib */; };
-		A9430B9D239604770008B23B /* AlamofireObjectMapperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9430B9B239604770008B23B /* AlamofireObjectMapperViewController.swift */; };
-		A9430B9E239604770008B23B /* AlamofireObjectMapperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9430B9C239604770008B23B /* AlamofireObjectMapperViewController.xib */; };
 		A9430BA1239604970008B23B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9430BA0239604970008B23B /* User.swift */; };
 		A9430BA323961A470008B23B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9430BA223961A470008B23B /* Person.swift */; };
 		A96A72512395FFE300629B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96A72502395FFE300629B30 /* AppDelegate.swift */; };
@@ -28,13 +31,16 @@
 /* Begin PBXFileReference section */
 		31B6BBC40353F4AEC3635665 /* Pods-AlamofireTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTest.debug.xcconfig"; path = "Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest.debug.xcconfig"; sourceTree = "<group>"; };
 		959B41425B84C2A8079FD735 /* Pods-AlamofireTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlamofireTest.release.xcconfig"; path = "Target Support Files/Pods-AlamofireTest/Pods-AlamofireTest.release.xcconfig"; sourceTree = "<group>"; };
+		A901915623C052C700AB4010 /* ModelIssue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelIssue.swift; sourceTree = "<group>"; };
+		A901917723C05C7B00AB4010 /* AlamofireCodableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlamofireCodableViewController.xib; sourceTree = "<group>"; };
+		A901917823C05C7B00AB4010 /* AlamofireObjectMapperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapperViewController.swift; sourceTree = "<group>"; };
+		A901917923C05C7B00AB4010 /* AlamofireCodableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireCodableViewController.swift; sourceTree = "<group>"; };
+		A901917A23C05C7B00AB4010 /* AlamofireObjectMapperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlamofireObjectMapperViewController.xib; sourceTree = "<group>"; };
+		A901917F23C05C9300AB4010 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A901918023C05C9300AB4010 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		A9430B8C239601C50008B23B /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		A9430B8D239601C50008B23B /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		A9430B8F239601C50008B23B /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
-		A9430B97239604630008B23B /* AlamofireCodableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireCodableViewController.swift; sourceTree = "<group>"; };
-		A9430B98239604630008B23B /* AlamofireCodableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlamofireCodableViewController.xib; sourceTree = "<group>"; };
-		A9430B9B239604770008B23B /* AlamofireObjectMapperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireObjectMapperViewController.swift; sourceTree = "<group>"; };
-		A9430B9C239604770008B23B /* AlamofireObjectMapperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlamofireObjectMapperViewController.xib; sourceTree = "<group>"; };
 		A9430BA0239604970008B23B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		A9430BA223961A470008B23B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A96A724D2395FFE300629B30 /* AlamofireTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlamofireTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +74,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A901917623C05C7B00AB4010 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				A901917723C05C7B00AB4010 /* AlamofireCodableViewController.xib */,
+				A901917823C05C7B00AB4010 /* AlamofireObjectMapperViewController.swift */,
+				A901917923C05C7B00AB4010 /* AlamofireCodableViewController.swift */,
+				A901917A23C05C7B00AB4010 /* AlamofireObjectMapperViewController.xib */,
+				A901917F23C05C9300AB4010 /* LoginViewController.swift */,
+				A901918023C05C9300AB4010 /* LoginViewController.xib */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		A9430B8B239601C50008B23B /* Core */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,22 +99,12 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
-		A9430B96239604440008B23B /* Screens */ = {
-			isa = PBXGroup;
-			children = (
-				A9430B97239604630008B23B /* AlamofireCodableViewController.swift */,
-				A9430B98239604630008B23B /* AlamofireCodableViewController.xib */,
-				A9430B9B239604770008B23B /* AlamofireObjectMapperViewController.swift */,
-				A9430B9C239604770008B23B /* AlamofireObjectMapperViewController.xib */,
-			);
-			path = Screens;
-			sourceTree = "<group>";
-		};
 		A9430B9F239604850008B23B /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				A9430BA0239604970008B23B /* User.swift */,
 				A9430BA223961A470008B23B /* Person.swift */,
+				A901915623C052C700AB4010 /* ModelIssue.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -121,8 +130,8 @@
 		A96A724F2395FFE300629B30 /* AlamofireTest */ = {
 			isa = PBXGroup;
 			children = (
+				A901917623C05C7B00AB4010 /* Screens */,
 				A9430B9F239604850008B23B /* Model */,
-				A9430B96239604440008B23B /* Screens */,
 				A9430B8B239601C50008B23B /* Core */,
 				A96A72542395FFE300629B30 /* ViewController.swift */,
 				A96A72562395FFE300629B30 /* Main.storyboard */,
@@ -203,11 +212,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A96A725D2395FFE400629B30 /* LaunchScreen.storyboard in Resources */,
-				A9430B9A239604630008B23B /* AlamofireCodableViewController.xib in Resources */,
+				A901917B23C05C7B00AB4010 /* AlamofireCodableViewController.xib in Resources */,
 				A96A725A2395FFE400629B30 /* Assets.xcassets in Resources */,
 				A96A72582395FFE300629B30 /* Main.storyboard in Resources */,
 				A9430B90239601C50008B23B /* MainViewController.xib in Resources */,
-				A9430B9E239604770008B23B /* AlamofireObjectMapperViewController.xib in Resources */,
+				A901918223C05C9300AB4010 /* LoginViewController.xib in Resources */,
+				A901917E23C05C7B00AB4010 /* AlamofireObjectMapperViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,14 +271,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9430B93239601C50008B23B /* Menu.swift in Sources */,
-				A9430B9D239604770008B23B /* AlamofireObjectMapperViewController.swift in Sources */,
 				A96A72552395FFE300629B30 /* ViewController.swift in Sources */,
 				A96A72512395FFE300629B30 /* AppDelegate.swift in Sources */,
 				A9430BA1239604970008B23B /* User.swift in Sources */,
 				A96A72532395FFE300629B30 /* SceneDelegate.swift in Sources */,
 				A9430BA323961A470008B23B /* Person.swift in Sources */,
-				A9430B99239604630008B23B /* AlamofireCodableViewController.swift in Sources */,
+				A901917D23C05C7B00AB4010 /* AlamofireCodableViewController.swift in Sources */,
+				A901917C23C05C7B00AB4010 /* AlamofireObjectMapperViewController.swift in Sources */,
+				A901915723C052C700AB4010 /* ModelIssue.swift in Sources */,
 				A9430B91239601C50008B23B /* MainViewController.swift in Sources */,
+				A901918123C05C9300AB4010 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

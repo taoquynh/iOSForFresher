@@ -21,10 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }else{
             window = UIWindow(frame: UIScreen.main.bounds)
             
-            let mainVC = MainViewController()
+            let mainVC = LoginViewController()
             let navigation = UINavigationController(rootViewController: mainVC)
             
-            window?.rootViewController = navigation
+            window?.rootViewController = mainVC
             window?.makeKeyAndVisible()
         }
         return true

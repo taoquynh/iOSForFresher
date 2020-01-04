@@ -21,10 +21,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.windowScene = _windowScene
-        let mainVC = MainViewController()
+        let mainVC = LoginViewController()
         let navigation = UINavigationController(rootViewController: mainVC)
         
-        window?.rootViewController = navigation
+        window?.rootViewController = mainVC
         window?.makeKeyAndVisible()
     }
 
