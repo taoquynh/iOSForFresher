@@ -8,20 +8,20 @@
 
 import Foundation
 
-//class User{
-//    var age = 1
-//    init(age: Int){
-//        self.age = age
-//    }
-//    deinit {
-//        print("user has age: \(age) was deallocated")
-//    }
-//}
-//var user1: User?
-//user1 = User(age: 21)
-//user1?.age = 22
-//var user2: User? = User(age: 25)
-//user2 = user1
+class User{
+    var age = 1
+    init(age: Int){
+        self.age = age
+    }
+    deinit {
+        print("user has age: \(age) was deallocated")
+    }
+}
+var user1: User?
+user1 = User(age: 21)
+user1?.age = 22
+var user2: User? = User(age: 25)
+user2 = user1
 
 
 //class Person {
@@ -84,6 +84,7 @@ class Fibonacci{
     init(value: Int) {
         self.value = value
     }
+    
     lazy var fibonacci: () -> Int = { [ weak self ] in
         var a = 0
         var b = 1
